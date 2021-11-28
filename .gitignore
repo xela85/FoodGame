@@ -1,0 +1,34 @@
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+**/target
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.scalafmt.conf
+
+.idea/
+
+.env
+
+**/node_modules
+
+.bloop
+.metals
+.sbtopts
+.jvmopts
+
+.bsp
+
+.jabbarc
